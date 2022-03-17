@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.react-draggable {
+  /* transform: translate(80vw, 85vh) !important; */
+}
+.react-jinke-music-player-mobile-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.react-jinke-music-player-mobile-operation > .items > .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .react-jinke-music-player-mobile-operation > .items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+} */
